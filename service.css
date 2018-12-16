@@ -1,0 +1,232 @@
+#list-example {
+	width: 20%;
+}
+.scrollspy-example {
+	
+	float: right;
+	margin-top: 2px;
+	width: 77%;
+
+}
+.jumbotron {
+  background-color:rgba(156, 200, 201, 0.0);
+  margin :auto;
+}
+.list-group {
+	position: fixed;
+	margin-top: 100px; 
+}
+#brand-image
+{
+	height: 33px ;
+	margin-top: -5px ;
+	margin-right: 11px;
+}
+
+.navbar {
+	background-color: rgba(231, 245, 254, 0.5);
+    
+	font-family: Work Sans, sans-serif;
+}
+.navbar-brand {
+	color: black; 
+}
+.navbar-light .navbar-nav  .nav-item a{
+    color: black;
+}
+
+.card {
+	background-color: rgba(231, 245, 254, 0.5);
+}
+
+body {
+	text-align: justify;
+	font-family: Work Sans, sans-serif;
+	font-size: 1rem;
+}
+.rafting {
+	height: 200px;
+	width: 350px;
+	float: right;
+	margin-left: 40px;
+	
+	
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 25px;
+}
+#contactus {
+	margin-left: 50px;
+}
+.fa-map-marker{
+	margin-top: 3px;
+}
+
+	
+	
+#bungee, #raft, #ticketing ,#trekking, #paragliding{
+	
+	border: none;
+
+	text-transform: uppercase;
+	text-align: center;
+
+	color: black;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+	
+	font-family: Work Sans, sans-serif;
+}
+
+
+.targetDiv {display: none;
+	margin: 0 auto;
+}
+#div1 {
+	display: block;
+	
+
+}
+h4{
+	text-align: center;
+}
+#gaps {
+	background: url(pokhara.jpg);
+	color: #F0FFFF;
+    width: 100%;
+ 	padding-top: 60px;
+   padding-bottom: 60px;
+    	text-align: center;
+    	font-size: 50px;
+	text-transform: uppercase;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.9),
+				0px 14px 23px rgba(0,0,0,0.9),
+				0px 17px 27px rgba(0,0,0,0.9);
+				font-family: 'Cute Font', cursive;
+}
+.gap {
+	
+    width: 100%;
+ 	padding-top: 60px;
+   padding-bottom: 60px;
+    	text-align: center;
+    	font-size: 40px;
+	
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.3),
+				0px 14px 23px rgba(0,0,0,0.3),
+				0px 17px 27px rgba(0,0,0,0.3);
+				font-family: 'Cute Font', cursive;
+	text-transform: uppercase;
+
+}
+
+
+body{
+	width: 100%;
+	
+
+	
+}
+
+	.included{
+		background-color:	rgba(255,255,255, 0.5);
+		border:none;
+		
+		height: auto;
+	   }
+
+
+
+	.btn .btn-default {
+	  position: center;
+	
+	
+	}
+	.card {
+		
+		font-family: inherit;
+	}
+	.map-responsive{
+		overflow:hidden;
+		padding-bottom:56.25%;
+		position:relative;
+		height:0;
+	}
+	.map-responsive iframe{
+		left:0;
+		top:0;
+		height:100%;
+		width:100%;
+		position:absolute;
+	}
+
+
+		/* modal book now */
+
+
+		.booknow, .Dateform {
+	
+			width: 100%;
+			margin-bottom: 10px;
+			border: 2px solid outset;
+			
+		}
+		.form-group{
+			width: 100%;
+		}
+		.modal-body{
+			font-size: 13px;
+		}
+		
+	
+		
+		input, textarea {
+			width: 100% ;
+			border: 2px solid outset;
+			
+		}
+		#textarea{
+			width: 90%;
+			
+			border: 2px solid outset;
+			margin-top: -5%;
+		margin-left: 5%;
+		}
+
+.modal-footer{
+	float: right;
+	margin-bottom: -5%;
+}
+
+	
+	
+	
+	
+
+	.fa-sort-amount-down{
+		float: right;
+	}
+
+	#myBtn{
+	
+		position: absolute;
+		z-index: 100000;
+		
+		width: auto;
+		position: sticky;
+	}
+
+	.closebtn{
+		float: right;
+	}
+	.copyright{
+		text-align: center;
+		width: 100%;
+		background-color:rgba(231, 245, 254, 0.5);
+		margin-bottom: 0;
+		font-size: 12px;
+	}

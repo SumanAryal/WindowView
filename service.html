@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Service</title>
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:500" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="service.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg  navbar-light ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img id="brand-image" src="logo.jpg">Home
+                <!-- <span class="sr-only">(current)</span> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Services </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destination.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trekking.html">Trekking</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">Contact Us</a>
+
+                        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="card card-body">
+                                        <div class="form-row">
+                                            <div class="col">
+                                                <h5>Need Support
+                                                    <i class="fas fa-question"></i>
+                                                </h5>
+                                                <hr>
+                                                <div id="contacts">
+                                                    <h5>
+                                                        <i class="fas fa-phone-volume"></i> Call us </h5>
+                                                    <h6>+977-9849956667
+                                                        <br>+977-9843438878</h6>
+                                                    <hr>
+                                                    <h5>
+                                                        <i class="far fa-envelope"></i> Email Us </h5>
+                                                    <h6>info@windowviewtravel.com</h6>
+                                                    <hr>
+                                                    <h5> On The Web</h5>
+                                                    <a href="https://www.facebook.com/windowviewtravel/">
+                                                        <i class="fab fa-facebook-square fa-2x"></i>
+                                                    </a>
+                                                    <a href="https://www.instagram.com/window_view2/">
+                                                        <i class="fab fa-instagram fa-2x"></i>
+                                                    </a>
+                                                    <hr>
+
+                                                    <h5>Meet Us</h5>
+                                                    <div class="map-responsive">
+                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12900.535599061375!2d85.34252949988938!3d27.699036491157347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19869793bff7%3A0xf2f77266b222365a!2sSinamangal%2C+Kathmandu+44600%2C+Nepal!5e0!3m2!1sen!2sfi!4v1524298898502"
+                                                            width="400" height="200" frameborder="0" style="border:0"
+                                                            allowfullscreen></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div id="form">
+
+                                                    <h5>
+                                                        <i class="far fa-envelope-open"></i> Drop Us A Message</h5>
+                                                    <hr>
+                                                    <p>Required fields are followed by *</p>
+                                                    <form class="form-group" id="contact-form" method="POST" action="service-form.php">
+                                                        <label for="Name">First Name*</label>
+                                                        <input id="Name" type="text" name="Firstname" placeholder="First Name"
+                                                            required="">
+                                                        <br>
+                                                        <label for="Lastname">Last Name*</label>
+                                                        <input id="Lastname" type="text" name="Lastname" placeholder="Last Name"
+                                                            required="">
+                                                        <br>
+                                                        <label for="Email">Email*</label>
+                                                        <input id="Email" type="Email" name="Email" placeholder="Email"
+                                                            required>
+                                                        <br>
+                                                        <label for="Contact">Contact Number</label>
+                                                        <input id="Contact" type="text" name="Contact" placeholder="Contact Number">
+                                                        <br>
+                                                        <label for="Subject">Subject*</label>
+                                                        <input id="Subject" name="Subject" type="text" placeholder="Subject"
+                                                            required="">
+                                                        <br>
+                                                        <label for="Paragraph">Message*</label>
+                                                        <br>
+                                                        <textarea id="Pargraph" name="message" rows="5" cols="15"
+                                                            required=""></textarea>
+                                                        <br>
+
+
+                                                        <div class="modal-footer">
+                                                            <button class="btn btn-primary" type="submit" name="submit">Submit</button>
+                                                            <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                                        </div>
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="jumbotron" id="gaps">
+        <h1>Wherever You Travel, Travel With All Your Heart.
+            <i class="fas fa-umbrella-beach"></i>
+        </h1>
+    </div>
+
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-faded id=" servicebtn "">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar10">
+                <span class="fas fa-sort-amount-down"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbar10">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item">
+                        <button id="bungee" class="nav-item showSingle btn btn-link" target="1">Bungee</button>
+                    </li>
+                    <li class="nav-item">
+                        <button id="raft" class="showSingle btn btn-link" target="2">Rafting</button>
+                    </li>
+                    <li class="nav-item">
+                        <button id="ticketing" class="showSingle btn btn-link" target="3">Ticketing</button>
+                    </li>
+
+                    <li class="nav-item">
+                        <button id="paragliding" class="showSingle btn btn-link" target="4">Paragliding</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <Button id="myBtn" class="btn btn-dark" data-target="#exampleModalCenter" data-toggle="modal">Contact Us For
+        Booking</Button>
+
+
+
+    <div aria-hidden="true" aria-labelledby="exampleModalCenterTitle" class="modal fade" id="exampleModalCenter" role="dialog"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body card">
+                    <form action="booknow-service.php" class="form-group" id="contact-form" method="post" name="contact-form">
+                        <label class="form-text" for="Name" id="name">Full Name*</label> <input class="booknow" id="Name"
+                            name="Name" placeholder="First Name" required="" type="text"><br>
+                        <label class="form-text" for="Email" id="email-form">Email Address*</label> <input class="booknow"
+                            id="Email" name="Email" placeholder="Email" required="" type="email"><br>
+                        <label class="form-text" for="Contact">Contact Number</label> <input class="booknow" id="Contact"
+                            name="Contact" placeholder="Contact Number" type="number"><br>
+                        <label class="form-text" for="Subject">Destination*</label> <select class="booknow" name="Subject">
+                            <option>Bujnee</option>
+                            <option>Rafting</option>
+                            <option>Paragliding</option>
+                            
+                            <option>Others</option>
+
+                        </select><br>
+                        <label class="form-text" for="Departure" id="ddate">Departure Date</label> <input class="Dateform"
+                            id="Departure" name="Ddate" placeholder="DD/MM/YYYY" type="date"><br>
+                        <label class="form-text" for="Return" id="Rdate">Return Date</label> <input class="Dateform" id="Return"
+                            name="Rdate" placeholder="DD/MM/YYYY" type="date"><br>
+                        <label class="form-text" for="Traveller" id="Traveller">No. Of Traveller</label> <input class="booknow"
+                            id="Return" name="Traveller" placeholder="Number of traveller" type="number"><br>
+                        <label class="form-text" for="Paragraph">Message*</label><br>
+                        <textarea cols="15" id="textarea" name="message" required="" rows="5"></textarea><br>
+                        <div class="modal-footer">
+                            <button class="btn btn-primary" name="submit" type="submit">Submit</button> <button class="btn btn-secondary"
+                                data-dismiss="modal">Close</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="included">
+        <div class="services container">
+            <div id="div1" class="targetDiv">
+
+                <h1 class="jumbotron gap">Bungee</h1>
+
+                <img class="rafting" src="bungy.jpg">
+                <p class="container">
+                    The ultimate experience of a Bungy jump would now be able to be experienced in Nepal under the most
+                    exciting site on the
+                    planet. Nepal's first bungy jump is located 160m over the wild Bhote Kosi river, and found near the
+                    Nepal-Tibet
+                    border, a three-hour transport ride from Kathmandu. The jump, at 160m, was composed by one of New
+                    Zealand's
+                    leading bungy experts, and is worked by the absolute most experienced jump masters in the business.
+                    <br> This bungy jump in Nepal may be the most spectacular bungy jump on the Planet. This remarkable
+                    500ft
+                    (160m) drop into the Bhote Koshi River gorge on the Nepal/Tibet Border is the longest free fall in
+                    the
+                    world. Anyone who wants to take a taste of bungee jumping should not have any of the health
+                    problems
+                    mentioned below:
+                    <br>
+                    <li>Heart disease</li>
+                    <li>Epilepsy</li>
+                    <li>High blood pressure</li>
+                    <li>Pregnancy</li>
+                    <li>Addiction to alcohol or drugs</li>
+                    <li>Orthopedic problems</li>
+                    <li>Psychological problems</li>
+                    <li>Neurological problems</li>
+                </p>
+
+
+            </div>
+            <div id="div2" class="targetDiv">
+                <h4 class="jumbotron gap">Rafting</h4>
+                <img class="rafting" src="rafting2.jpg">
+
+                <p>The rafting point on the Trisuli River is around a three to four hours' drive from Kathmandu. It's a
+                    decent
+                    bouncy river, however the rapids aren't too big, making this a perfect river for learners. The
+                    water
+                    is generally warm, and from the waterway, lovely terraced farmland, neighborhood and high slopes
+                    can
+                    be seen. As this river also flows between Kathmandu and Pokhara and river trip closes close to
+                    Chitwan,
+                    it's conceivable to organize a forward transfer after the rafting fun, instead of coming back to
+                    Kathmandu.
+                    <br>The view of Trishuli River incorporates little deep narrow valleys and a view to Cable Car well
+                    known
+                    as Hindu Temple Manakamana. For the greater part of the year the it is possible to experience
+                    rafting
+                    on the Trisuli. Trisuli river is the best river for searching for a short rafting, which can be
+                    completed
+                    in a day. As it lies on the way to Pokhara And Chitwan, short rafting trips can be managed if you
+                    are
+                    travelling to any of these beautiful places from Kathmandu.</p>
+
+
+            </div>
+            <div id="div3" class="targetDiv">
+
+                <h4 class="jumbotron gap">Ticketing</h4>
+                <img class="rafting" src="ticketing.jpeg">
+                <p class="container">
+                    As Nepal is being a mountainous nation on the planet it has numerous little air terminals in the
+                    remote regions flight link
+                    with main cities. There are 44 airports in the nation, including all climate, regular and STOL
+                    (short
+                    take-off and landing) types. All significant cities are served via air. The planes flying in Nepal
+                    are
+                    specially chosen for execution in sloping situations and are guided by talented and experienced
+                    hands.
+                    <br> We help you air ticket reserving for your any ahead journey including both domestic and
+                    International
+                    areas. In Nepal there are a few planned flight associations with various local air terminals from
+                    Kathmandu,
+                    next to fixed flights, we likewise help you to book flights for required destinations – little
+                    plane
+                    or helicopter for heli-sightseeing or for transportation reason. We would be delightful if you let
+                    us
+                    know your any short of flight related necessities. We Offer Booking Service:
+
+                    <li>Electronic air-ticketing all through the world inside a day.</li>
+                    <li>Ticket plan for domestic flights.</li>
+                    <li>Mountain flights.</li>
+                    <li>Helicopter to every remote territory of Nepal.</li>
+                </p>
+
+
+            </div>
+
+
+
+
+
+
+            <div id="div4" class="targetDiv">
+
+                <h4 class="jumbotron gap">Paragliding</h4>
+                <img class="rafting" src="paragliding.jpg">
+                <p class="container">
+                    Paragliding is one of the most adventures activities in Nepal. Adventure seekers also have the
+                    choice to experience paragliding
+                    in Pokhara. Rows of paragliders soaring just like birds in the open sky could be seen from various
+                    views
+                    of Pokhara. The best in the about paragliding in Pokhara is the once in a life experience of
+                    viewing
+                    the lush green and beautiful valley, sparkling lakes and snowcapped mountains all at same time. The
+                    view
+                    of Pokhara valley with beautiful lakes and beautiful mountains leave an everlasting imprint on ones
+                    memory.
+                    Flying in the air will feel you like a bird , viewing the beautiful sightseeing of Pokhara valley.
+                    We
+                    can see overall view of pokhara city. The best favourable time for paragliding in pokhara is start
+                    from
+                    the early autumn to early spring.In Pokhara every year paragliding compition is also organized.
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+    <p class="copyright">Copyright © Window View Travel & Tours<br>
+        All Right Reserved | Made By Suman Aryal </p>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="service.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

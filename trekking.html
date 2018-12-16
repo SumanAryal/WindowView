@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trekking</title>
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:500" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="trekking.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg  navbar-light ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img id="brand-image" src="logo.jpg">Home
+                <!-- <span class="sr-only">(current)</span> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Services </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destination.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trekking.html">Trekking</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">Contact Us</a>
+
+                        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg" id="box">
+                                <div class="modal-content">
+                                    <div class="card card-body">
+                                        <div class="form-row">
+                                            <div class="col">
+                                                <h5>Need Support
+                                                    <i class="fas fa-question"></i>
+                                                </h5>
+                                                <hr>
+                                                <div id="contacts">
+                                                    <h5>
+                                                        <i class="fas fa-phone-volume"></i> Call us </h5>
+                                                    <h6>+977-9849956667
+                                                        <br>+977-9843438878</h6>
+                                                    <hr>
+                                                    <h5>
+                                                        <i class="far fa-envelope"></i> Email Us </h5>
+                                                    <h6>info@windowviewtravel.com</h6>
+                                                    <hr>
+                                                    <h5> On The Web</h5>
+                                                    <a href="https://www.facebook.com/windowviewtravel/">
+                                                        <i class="fab fa-facebook-square fa-2x"></i>
+                                                    </a>
+                                                    <a href="https://www.instagram.com/window_view2/">
+                                                        <i class="fab fa-instagram fa-2x"></i>
+                                                    </a>
+                                                    <hr>
+
+                                                    <h5>Meet Us</h5>
+                                                    <div class="map-responsive">
+                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12900.535599061375!2d85.34252949988938!3d27.699036491157347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19869793bff7%3A0xf2f77266b222365a!2sSinamangal%2C+Kathmandu+44600%2C+Nepal!5e0!3m2!1sen!2sfi!4v1524298898502"
+                                                            width="400" height="200" frameborder="0" style="border:0"
+                                                            allowfullscreen></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div id="form">
+
+                                                    <h5>
+                                                        <i class="far fa-envelope-open"></i> Drop Us A Message</h5>
+                                                    <hr>
+                                                    <p>Required fields are followed by *</p>
+                                                    <form class="form-group" id="contact-form" method="POST" action="trekking-form.php">
+                                                        <label for="Name">First Name*</label>
+                                                        <input id="Name" type="text" name="Firstname" placeholder="First Name"
+                                                            required="">
+                                                        <br>
+                                                        <label for="Lastname">Last Name*</label>
+                                                        <input id="Lastname" type="text" name="Lastname" placeholder="Last Name"
+                                                            required="">
+                                                        <br>
+                                                        <label for="Email">Email*</label>
+                                                        <input id="Email" type="Email" name="Email" placeholder="Email"
+                                                            required>
+                                                        <br>
+                                                        <label for="Contact">Contact Number</label>
+                                                        <input id="Contact" type="text" name="Contact" placeholder="Contact Number">
+                                                        <br>
+                                                        <label for="Subject">Subject*</label>
+                                                        <input id="Subject" name="Subject" type="text" placeholder="Subject"
+                                                            required="">
+                                                        <br>
+                                                        <label for="Paragraph">Message*</label>
+                                                        <br>
+                                                        <textarea id="Pargraph" name="message" rows="5" cols="15"
+                                                            required=""></textarea>
+                                                        <br>
+
+
+                                                        <div class="modal-footer">
+                                                            <button class="btn btn-primary" type="submit" name="submit">Submit</button>
+                                                            <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                                        </div>
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <div class="jumbotron" id="gaps">
+        <h1>The Best View Comes After The Hardest Climb.
+            <i class="fas fa-walking"></i>
+
+
+
+
+        </h1>
+    </div>
+
+    <div class="included">
+
+
+        <h1 class=" gap">Trekking</h1>
+        <img class="trek" src="trek.jpeg">
+
+        <div class="container">
+            <p>
+                With eight of the main ten most highest summits on the planet and probably the most delightful scenes
+                which are just reachable
+                by walking, trekking in Nepal is one of the exceptional experience. Trekking is one of the famous
+                activity
+                in Nepal, and explorers will be bombarded in the city of Kathmandu and the trekking center point,
+                Pokhara,
+                with guides.
+                <br>Trekking in Nepal is best done during the dry and warm months from late February through to June
+                and from
+                September through to November. During these months temperatures have a tendency to be 'moderate' by
+                Nepalese
+                measures and the skies are frequently clear, giving extraordinary view of the Himalayas. Obviously, as
+                these
+                months are ideal for trekking, most courses in Nepal have a tendency to get occupied. There are,
+                however,
+                some calmer more routes that can be taken after to keep away from the crouds. The winter time of
+                December,
+                January and February, are very cold and can give trekkers on lower routes which provides authentic
+                Nepal
+                trekking experience.</p>
+
+            <h3>WHAT'S INCLUDED</h3>
+            <ul>
+                <li>Airport pickup and drop-off (on request) services in a private vehicle.</li>
+                <li>Domestic Transport, including all airline taxes and fuel surcharges; as per requirements.</li>
+                <li>Meals on a full-board basis (breakfast, lunch and dinner / main course) during the trek.</li>
+                <li>Accommodation in tea houses / lodges along the trek as per the itinerary.</li>
+                <li>Required entrance permits.</li>
+                <li>Trekkers Information Management System (TIMS) registration card.</li>
+                <li>Experienced, English-speaking, trained trekking guide.</li>
+                <li>A first aid kit carried by the guide..</li>
+                <li>Necessary paper works, all government and local taxes.</li>
+                <li>In a worst case scenario, rescue and medical evacuation arrangements.</li>
+                <li>1 complementary dinner after arrival or before departure in a traditional restaurant.</li>
+
+            </ul>
+            <h3>WHAT'S EXCLUDED</h3>
+            <ul>
+                <li>International airfare, Nepal visa fees (two passport photographs required) and travel and medical
+                    insurance
+                    for emergency evacuation.</li>
+                <li>Expenses of a personal nature (bars and beverage bills, dessert and snacks, hot shower, drinking
+                    water, telephone,
+                    internet, laundry, titbits, etc).</li>
+                <li>Costs arising from natural calamities, mishaps or anything beyond our control. Costs are
+                    non-refundable and
+                    non-transferable if you leave the trek voluntarily.</li>
+                <li>Meals and accommodation in Kathmandu in cases of early returns and late departures.</li>
+                <li>Services not mentioned in the 'What's Included' section and referred to as 'optional'.</li>
+                <li>Porters available at an extra cost.</li>
+            </ul>
+            <h5>***OPTIONAL ADDONS on request</h5>
+        </div>
+
+
+        <h3 class="gap">Top trekking Routes</h3>
+
+
+
+        <div class="card-group container">
+            <div class=" col-lg-4 col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="eve.jpeg">
+                    <div class="card-body">
+                        <h5 class="card-title">Everest Base Camp</h5>
+                        <h6 class="card-text">
+
+                            <table class="shows">
+                                <tr>
+                                    <td>Duration </td>
+                                    <td> 10 to 15 days</td>
+                                </tr>
+                                <tr>
+                                    <td> Trek Difficulty</td>
+                                    <td> Moderate</td>
+                                </tr>
+                                <tr>
+                                    <td>Tour Type</td>
+                                    <td> Group & Private Tour</td>
+                                </tr>
+                                <tr>
+                                    <td>Maximum Altitude</td>
+                                    <td> 5545 Meters</td>
+                                </tr>
+                            </table>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="abc.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Annapurna Base Camp</h5>
+                        <h6 class="card-text">
+
+                            <table class="shows">
+                                <tr>
+                                    <td>Duration </td>
+                                    <td> 5 to 15 days</td>
+                                </tr>
+                                <tr>
+                                    <td> Trek Difficulty</td>
+                                    <td> Moderate</td>
+                                </tr>
+                                <tr>
+                                    <td>Tour Type</td>
+                                    <td> Group & Private Tour</td>
+                                </tr>
+                                <tr>
+                                    <td>Maximum Altitude</td>
+                                    <td> 4131 Meters</td>
+                                </tr>
+                            </table>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="poonhill.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Ghorepani PoonHill Trek</h5>
+                        <h6 class="card-text">
+
+                            <table class="shows">
+                                <tr>
+                                    <td>Duration </td>
+                                    <td> 4 to 10 days</td>
+                                </tr>
+                                <tr>
+                                    <td> Trek Difficulty</td>
+                                    <td> Easy</td>
+                                </tr>
+                                <tr>
+                                    <td>Tour Type</td>
+                                    <td> Group & Private Tour</td>
+                                </tr>
+                                <tr>
+                                    <td>Maximum Altitude</td>
+                                    <td> 3210 Meters</td>
+                                </tr>
+                            </table>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="mukti.jpeg">
+                    <div class="card-body">
+                        <h5 class="card-title">Jomsom Muktinath Trek</h5>
+                        <h6 class="card-text">
+
+                            <table class="shows">
+                                <tr>
+                                    <td>Duration </td>
+                                    <td> 6 to 12 days</td>
+                                </tr>
+                                <tr>
+                                    <td> Trek Difficulty</td>
+                                    <td> Easy</td>
+                                </tr>
+                                <tr>
+                                    <td>Tour Type</td>
+                                    <td> Group & Private Tour</td>
+                                </tr>
+                                <tr>
+                                    <td>Maximum Altitude</td>
+                                    <td> 3800 Meters</td>
+                                </tr>
+                            </table>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="mustang1.jpeg">
+                    <div class="card-body">
+                        <h5 class="card-title">Mustang Trek</h5>
+                        <h6 class="card-text">
+
+                            <table class="shows">
+                                <tr>
+                                    <td>Duration </td>
+                                    <td> 5 to 15 days</td>
+                                </tr>
+                                <tr>
+                                    <td> Trek Difficulty</td>
+                                    <td> Moderate</td>
+                                </tr>
+                                <tr>
+                                    <td>Tour Type</td>
+                                    <td> Group & Private Tour</td>
+                                </tr>
+                                <tr>
+                                    <td>Maximum Altitude</td>
+                                    <td> 4230 Meters</td>
+                                </tr>
+                            </table>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="rara1.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Rara Lake Trek</h5>
+                        <h6 class="card-text">
+
+                            <table class="shows">
+                                <tr>
+                                    <td>Duration </td>
+                                    <td> 7 to 12 days</td>
+                                </tr>
+                                <tr>
+                                    <td> Trek Difficulty</td>
+                                    <td> Easy</td>
+                                </tr>
+                                <tr>
+                                    <td>Tour Type</td>
+                                    <td> Group & Private Tour</td>
+                                </tr>
+                                <tr>
+                                    <td>Maximum Altitude</td>
+                                    <td> 4100 Meters</td>
+                                </tr>
+                            </table>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <Button id="myBtn" class="btn btn-info" data-target="#exampleModalCenter" data-toggle="modal" >Book Now</Button>
+        <div aria-hidden="true" aria-labelledby="exampleModalCenterTitle" class="modal fade" id="exampleModalCenter"
+            role="dialog" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body card">
+                        <form action="booknow-trekking.php" class="form-group" id="contact-form" method="post" name="contact-form">
+                            <label class="form-text" for="Name" id="name">Full Name*</label> <input class="booknow" id="Name"
+                                name="Name" placeholder="First Name" required="" type="text"><br>
+                            <label class="form-text" for="Email" id="email-form">Email Address*</label> <input class="booknow"
+                                id="Email" name="Email" placeholder="Email" required="" type="email"><br>
+                            <label class="form-text" for="Contact">Contact Number</label> <input class="booknow" id="Contact"
+                                name="Contact" placeholder="Contact Number" type="number"><br>
+                            <label class="form-text" for="Subject">Destination*</label> <select class="booknow" name="Subject">
+                                <option>Everest Base Camp</option>
+                            <option>Annapurna Base Camp</option>
+                            <option>Ghorepani PoonHill Trek</option>
+                            <option>Jomsom Muktinath Trek</option>
+                            <option>Mustang Trek</option>
+                            <option>Rara Lake Trek</option>
+                            <option>Others</option>
+
+                            </select><br>
+                            <label class="form-text" for="Departure" id="ddate">Departure Date</label> <input class="Dateform"
+                                id="Departure" name="Ddate" placeholder="DD/MM/YYYY" type="date"><br>
+                            <label class="form-text" for="Return" id="Rdate">Return Date</label> <input class="Dateform"
+                                id="Return" name="Rdate" placeholder="DD/MM/YYYY" type="date"><br>
+                            <label class="form-text" for="Traveller" id="Traveller">No. Of Traveller</label> <input
+                                class="booknow" id="Return" name="Traveller" placeholder="Number of traveller" type="number"><br>
+                            <label class="form-text" for="Paragraph">Message*</label><br>
+                            <textarea cols="15" id="textarea" name="message" required="" rows="5"></textarea><br>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" name="submit" type="submit">Submit</button> <button
+                                    class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="copyright">Copyright © Window View Travel & Tours<br>
+        All Right Reserved | Made By Suman Aryal </p>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="trekking.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
